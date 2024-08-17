@@ -26,3 +26,5 @@ const HomePage = () => {
 }
 
 export default HomePage;
+
+// I added a comment here to test how commits work!
