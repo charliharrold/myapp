@@ -4,8 +4,9 @@ import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
+// the background below changes the colour of the nagivation bar
 export const Nav = styled.nav`
-    background: #63d471;
+    background: #ffd6ff;
     height: 85px;
     display: flex;
     justify-content: space-between;
