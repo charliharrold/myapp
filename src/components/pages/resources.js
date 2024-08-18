@@ -1,8 +1,8 @@
-// pages/events.js
+// pages/resources.js
 
 import React from "react";
 
-const Events = () => {
+const Resources = () => {
     return (
         <div
             style={{
@@ -12,9 +12,9 @@ const Events = () => {
                 height: "100vh",
             }}
         >
-            <h1>Welcome to GeeksforGeeks Events</h1>
+            <h1>Welcome to my resources</h1>
         </div>
     );
 };
 
-export default Events;
+export default Resources;
