@@ -19,7 +19,7 @@ const Navbar = () => {
                         Home
                     </NavLink>
                     <NavLink to="/about" >
-                        About
+                        About Me
                     </NavLink>
                     <NavLink to="/events" activeStyle>
                         Events
