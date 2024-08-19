@@ -3,7 +3,6 @@ import React from "react";
 
 const rightAlign = {
     float: 'right',
-    //padding: "0px 0px 50px 0px",
     clear: 'both',
 
   }
@@ -13,32 +12,15 @@ const leftAlign = {
     clear: 'both',
 }
 
-const borderIn = {
-    //border: "10px solid white",
-    padding: "0px 0px 50px 0px",
-}
 
 const alignOne = {
     display: 'flex',
     alignItems: 'center',
 }
 
-const otherRight = {
 
-    position: 'absolute',
-    right: '0px',
-    width: '300px',
-    border: '3px solid #73AD21',
-    padding: '10px',
-}
 
-const spanOne = {
-    padding: '10px',
-}
 
-const dispFlex = {
-    display: 'flex',
-}
 
 /*
 <br></br>
@@ -57,48 +39,55 @@ const dispFlex = {
 <br></br>
 */
 
+const leftFloat = {
+    float: 'left',
+}
 
+const alignAndRight = {
+    float: 'right',
+    clear: 'both',
+    display: 'flex',
+    alignItems: 'center',
+}
 
-
-
-
-/*
 const Projects = () => {
     return (
         <div>
             <h1>Welcome to my photos</h1>
 
             <div>
-                <h3>Rosetta Stone</h3>
-                <img style={rightAlign} src='image1.jpg' width='307' height='408'/>
-                <p>
+                <h3 style={rightAlign}>Rosetta Stone</h3>
+                
+                <p style={rightAlign}>
                     Writing next to rosetta stone
                 </p>
+                <img src='image1.jpg' width='307' height='408'/>
             </div>
       
 
             <div>
-            <div style={dispFlex}>
-                <img style={leftAlign} src='image2.jpg' width='408' height='307'/>
-                </div>
-                <div>
-                <h3 style={rightAlign}>London picture</h3>
+            <img style={rightAlign} src='image2.jpg' width='408' height='307'/>
+                <h3 style={alignOne}>London picture</h3>
                 
-                <p style={rightAlign}>
+                <p style={alignOne}>
                     Writing next to London picture of me
                 </p>
-                </div>
                 
             </div>
 
             <div>
-                <img style={rightAlign} src='image3.jpg' width='408' height='307'/>
+            <img style={leftAlign} src='image3.jpg' width='408' height='307'/>
+                <h3 style={alignAndRight}>Thistle Picture</h3>
+                <p style={alignAndRight}>Writing next to thistle picture.</p>
+                
             </div>
-
-            <img style={leftAlign} src='image4.jpg' width='408' height='307'/>
+            <div>
+                <img style={rightAlign} src='image4.jpg' width='408' height='307'/>
+            </div>
         </div>
     );
 };
-*/
+
+
 
 export default Projects;
