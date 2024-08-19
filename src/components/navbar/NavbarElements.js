@@ -6,7 +6,7 @@ import styled from "styled-components";
 
 // the background below changes the colour of the nagivation bar
 export const Nav = styled.nav`
-    background: #ffd6ff;
+    background: #fec5e5;
     height: 85px;
     display: flex;
     justify-content: space-between;
@@ -17,7 +17,7 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
-    color: #808080;
+    color: #4c464a;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -31,7 +31,7 @@ export const NavLink = styled(Link)`
 
 export const Bars = styled(FaBars)`
     display: none;
-    color: #808080;
+    color: #4c464a;
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
@@ -71,7 +71,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
     border-radius: 4px;
-    background: #808080;
+    background: #4c464a;
     padding: 10px 22px;
     color: #000000;
     outline: none;
@@ -84,6 +84,6 @@ export const NavBtnLink = styled(Link)`
     &:hover {
         transition: all 0.2s ease-in-out;
         background: #fff;
-        color: #808080;
+        color: #000000;
     }
 `;
