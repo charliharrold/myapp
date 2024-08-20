@@ -5,6 +5,7 @@ import {
     BrowserRouter as Router,
     Routes,
     Route,
+    HashRouter,
 } from "react-router-dom";
 import Home from "./components/pages/home";
 import About from "./components/pages/about";
@@ -14,7 +15,7 @@ import Resources from "./components/pages/resources";
 
 function App() {
     return (
-        <Router>
+        <HashRouter>
             <Navbar />
             <Routes>
                 <Route path="/home" element={<Home />} />
@@ -24,7 +25,7 @@ function App() {
                 <Route path="/resources" element={<Resources />}/>
 
             </Routes>
-        </Router>
+        </HashRouter>
 
         
     );

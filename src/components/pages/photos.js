@@ -1,105 +1,73 @@
 import React from "react";
-import { MdWrapText } from "react-icons/md";
+import image1 from "../../resources/image1.jpg";
+import image2 from "../../resources/image2.jpg";
+import image3 from "../../resources/image3.jpg";
+import image4 from "../../resources/image4.jpg";
 
-const rightAlign = {
-    float: 'right',
-    clear: 'both',
-
-  }
-
-const leftAlign = {
-    float: 'left',
-    clear: 'both',
-}
-
-
-const alignOne = {
-    display: 'flex',
-    alignItems: 'center',
-}
-
-
-const leftFloat = {
-    float: 'left',
-}
-
-const alignAndRight = {
-    float: 'right',
-    display: 'grid',
-    alignItems: 'center',
-}
-
-const alignAndLeft = {
-    float: 'left',
-    display: 'grid',
-    alignItems: 'center',
-    //'overflow-wrap': 'break-word',
-}
-
-const Projects = () => {
+const Newpage = () => {
     return (
-        <div>
-
-            <h1>Welcome to my photos</h1>
-            <p>I recently went on a trip, here are some pics from it.</p>
-
-            <div>
-            <img style={leftAlign} src='image1.jpg' width='307' height='408'/>
-                <div style={alignAndRight}>
-                    <h3>Rosetta Stone</h3>
-                    <p>Writing next to rosetta stone keep on writing to see what happens</p>
+        <div className={"container"}>
+            <h1>Title at the top of the page</h1>
+            <p>Some description about what this is</p>
+            <div className={"row"}>
+                <div className={"col-4"}>
+                    <img src={image1} width='307' height='408' />
                 </div>
+                <div className={"col"}>
+                    <h3>Here is a title</h3>
+                    Here is a picture with the
+                </div>
+
             </div>
 
-            <div>
-            <img style={rightAlign} src='image2.jpg' width='408' height='307'/>
+            <hr></hr>
 
-                <div style={alignAndLeft}>
-                    <h3>London picture</h3>
-                    <p>Writing next to London picture of me</p>
+            <div className={"row"}>
+                <div className={"col"}>
+                    <h3>London Picture Title</h3>
+                    <p>writing next to the london picture</p>
                 </div>
+
+                <div className={"col-4"}>
+                    <img src={image2} width='408' height='307' />
+                </div>
+
             </div>
 
-            <div>
-                <img style={leftAlign} src='image3.jpg' width='408' height='307'/>
+            <hr></hr>
+            <div className={"row"}>
+                <div className={"col-5"}>
+                    <img src={image3} width='408' height='307' />
 
-                <div style={alignAndRight}>
-                    <h3>Thistle Picture</h3>
-                    <p>Writing next to thistle picture. what happens if i keep writing</p>
                 </div>
+
+                <div className={"col"}>
+                    <h3>thistle picture</h3>
+                    <p>writing next to the thistle picture</p>
+                </div>
+
             </div>
 
-            <div>
-                <img style={rightAlign} src='image4.jpg' width='408' height='307'/>
-                
-                <div style={alignAndLeft}>
-                    <h3>Me in Skye</h3>
-                    <p>The picture of me in Skye when it was windy.</p>
+            <hr></hr>
+
+            <div className={"row"}>
+                <div className={"col"}>
+                <h3>Skye picture</h3>
+                <p>writing next to the Skye picture</p>
+
                 </div>
+
+                <div className={"col-4"}>
+                <img src={image4} width='408' height='307' />
+                    
+                </div>
+
             </div>
 
-            <div>
-                <img style={leftAlign} src='image3.jpg' width='408' height='307'/>
-
-                <div style={alignAndRight}>
-                    <h3>Thistle Picture</h3>
-                    <p>Writing next to thistle picture. what happens if i keep writing</p>
-                </div>
-            </div>
-
-            <div>
-                <img style={rightAlign} src='image4.jpg' width='408' height='307'/>
-                
-                <div style={alignAndLeft}>
-                    <h3>Me in Skye</h3>
-                    <p>The picture of me in Skye when it was windy.</p>
-                </div>
-            </div>
+            <hr></hr>
 
         </div>
     );
 };
 
-
-
-export default Projects;
+export default Newpage;

@@ -1,6 +1,7 @@
 // pages/about.js
 
 import React from "react";
+import resume from "../../resources/resume.pdf";
 
 const wrapText = {
     textAlign: "left",
@@ -30,7 +31,7 @@ const About = () => {
             
         <div style={imageStyle}><iframe width="600"
         height="800"
-        src="resume.pdf"
+        src={resume}
         title="Charli Resume"
         >
         </iframe></div>

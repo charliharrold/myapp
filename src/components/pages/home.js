@@ -1,4 +1,5 @@
 import React from 'react';
+import headshot from "../../resources/headshot.png";
 
 const headingStyle = {
   color: '#B05AF3',
@@ -23,7 +24,7 @@ const HomePage = () => {
           I am the Vice President of the Women in Engineering and Computer Science (WECS) club at UVic.
           I have resources for beginners interested in learning Python, as well as step by step guides for making your own personal website.
         </p>
-        <img style={rightAlign} src='headshot.jpg' width='200' height='266'/>
+        <img style={rightAlign} src={headshot} width='200' height='266'/>
       </main>
     </div>
   );
