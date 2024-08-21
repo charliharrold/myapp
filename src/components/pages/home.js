@@ -1,6 +1,8 @@
 import React from 'react';
 import headshot from "../../resources/headshot.png";
 
+
+
 const headingStyle = {
   color: '#ae2ce3',
   textAlign: 'left',
@@ -42,7 +44,7 @@ const HomePage = () => {
             for all sorts of work in different fields!
           </p>
         </div>
-        <div className={"col"}>
+        <div className={"col-4"}>
           <img src={headshot} width='300' height='399'/>
         </div>
       </div>

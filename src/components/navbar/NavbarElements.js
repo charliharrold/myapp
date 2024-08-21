@@ -1,8 +1,12 @@
 // components/Navbar/navbarElements.js
 
+
+
 import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
+
+
 
 // the background below changes the colour of the nagivation bar
 export const Nav = styled.nav`

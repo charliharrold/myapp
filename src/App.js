@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./App.css";
 import Navbar from "./components/navbar";
@@ -12,11 +13,13 @@ import About from "./components/pages/about";
 import Photos from "./components/pages/photos";
 import Projects from "./components/pages/projects";
 import Resources from "./components/pages/resources";
+import BasicExample from "./components/navbar";
+
 
 function App() {
     return (
         <HashRouter>
-            <Navbar />
+            <BasicExample />
             <Routes>
                 <Route path="/home" element={<Home />} />
                 <Route path="/about" element={<About />} />
@@ -32,3 +35,7 @@ function App() {
 }
 
 export default App;
+
+
+
+
