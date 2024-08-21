@@ -2,8 +2,8 @@ import React from 'react';
 import headshot from "../../resources/headshot.png";
 
 const headingStyle = {
-  color: '#B05AF3',
-  textAlign: 'center',
+  color: '#ae2ce3',
+  textAlign: 'left',
 };
 const centre = {
   textAlign: 'center',
@@ -13,19 +13,43 @@ const rightAlign = {
   float: 'right'
 }
 
+
 const HomePage = () => {
   return (
-    <div>
-      <header>
-        <h1 style={headingStyle}>Welcome to my website!</h1>
-      </header>
-      <main>
-        <p style={centre}>I'm a computer science student at the University of Victoria who is passionate about learning.
-          I am the Vice President of the Women in Engineering and Computer Science (WECS) club at UVic.
-          I have resources for beginners interested in learning Python, as well as step by step guides for making your own personal website.
-        </p>
-        <img style={rightAlign} src={headshot} width='200' height='266'/>
-      </main>
+    <div className={"container"}>
+      <h1 style={headingStyle}>Welcome to my website!</h1>
+      <div className={"row"}>
+        <div className={"col-8"}>
+          <br></br>
+          <p>I'm a 3rd year computer science student at the University of Victoria who is passionate about learning
+            everything there is to know in this field!
+            <br></br>
+            <br></br>
+            I am the Vice President of the Women in Engineering and Computer Science (WECS) club at UVic, which is a huge
+            honour because I care about the club so much.
+            <br></br>
+            I run the CSC 110 final exam review session every semester on behalf of WECS, and it is by far my proudest achievement.
+            CSC 110 was the first programming course I took, so being able to help current students in the class feels very
+            full circle for me.
+            <br></br>
+            <br></br>
+            I'm also interested in the humanities, particularly history and gender studies. It's important to me that I learn
+            more than simply computers and math in my time at university, so I have taken a variety of courses including: Scottish
+            food history, introductory gender studies, critical thinking, and Spanish.
+            <br></br>
+            In the future, I want to explore how my programming skills can be applied to humanities problems.
+            While attending the 2024 Digital Humanities Summer Institute I realized just how helpful programming can be
+            for all sorts of work in different fields!
+          </p>
+        </div>
+        <div className={"col"}>
+          <img src={headshot} width='300' height='399'/>
+        </div>
+      </div>
+        
+        
+
+      
     </div>
   );
 }

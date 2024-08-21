@@ -18,6 +18,18 @@ const Resources = () => {
             <p>
                 I will soon be uploading a step-by-step guide on how to make your own website similar to this one!
             </p>
+
+            <h3>Documentation and Programming Resources</h3>
+            <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/package-summary.html">Java Util Documentation</a>
+            <br></br>
+            <br></br>
+            <a href="https://peps.python.org/pep-0008/">Python Style Guide</a>
+            <br></br>
+            <br></br>
+            <a href="https://www.w3schools.com/cssref/index.php">CSS Guide</a>
+            <br></br>
+            <br></br>
+            <a href="https://devdocs.io/javascript/">JavaScript Documentation</a>
         </div>
     );
 };
