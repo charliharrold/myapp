@@ -7,7 +7,7 @@ const makePink = {
     "background-color": "#fec5e5",
 }
 
-function BasicExample() {
+function Navigation() {
   return (
     <Navbar expand="lg" className="bs-pink" style={makePink}>
         
@@ -28,4 +28,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default Navigation;

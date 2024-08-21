@@ -13,13 +13,13 @@ import About from "./components/pages/about";
 import Photos from "./components/pages/photos";
 import Projects from "./components/pages/projects";
 import Resources from "./components/pages/resources";
-import BasicExample from "./components/navbar";
 
+import Navigation from "./components/navbar";
 
 function App() {
     return (
         <HashRouter>
-            <BasicExample />
+            <Navigation />
             <Routes>
                 <Route path="/home" element={<Home />} />
                 <Route path="/about" element={<About />} />
