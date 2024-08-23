@@ -21,16 +21,17 @@ function App() {
         <HashRouter>
             <Navigation />
             <Routes>
+                <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/photos" element={<Photos />}/>
-                <Route path="/projects" element={<Projects />}/>
-                <Route path="/resources" element={<Resources />}/>
+                <Route path="/photos" element={<Photos />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/resources" element={<Resources />} />
 
             </Routes>
         </HashRouter>
 
-        
+
     );
 }
 
