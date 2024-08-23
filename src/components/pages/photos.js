@@ -20,6 +20,10 @@ const grey = {
     color: "#8a8a8a"
 }
 
+/*
+
+*/
+
 const Newpage = () => {
     return (
         <div className={"container"}>
@@ -33,7 +37,7 @@ const Newpage = () => {
 
             <div className={"row"}>
                 <div className={"col-4"}>
-                    <img src={image1} width='307' height='408' />
+                    <img src={image1} width='307' height='408' class="img-fluid"/>
                 </div>
                 <div className={"col"}>
                     <h3 style={grey}>Rosetta Stone</h3>
@@ -61,7 +65,7 @@ const Newpage = () => {
                 </div>
 
                 <div className={"col-4"}>
-                    <img src={image2} width='408' height='307' />
+                    <img src={image2} width='408' height='307' class="img-fluid"/>
                 </div>
 
             </div>
@@ -69,7 +73,7 @@ const Newpage = () => {
             <hr></hr>
             <div className={"row"}>
                 <div className={"col-5"}>
-                    <img src={image3} width='408' height='307' />
+                    <img src={image3} width='408' height='307' class="img-fluid"/>
 
                 </div>
 
@@ -105,7 +109,7 @@ const Newpage = () => {
                 </div>
 
                 <div className={"col-4"}>
-                    <img src={image4} width='408' height='307' />
+                    <img src={image4} width='408' height='307' class="img-fluid"/>
 
                 </div>
 

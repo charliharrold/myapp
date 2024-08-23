@@ -45,7 +45,7 @@ const HomePage = () => {
           </p>
         </div>
         <div className={"col-4"}>
-          <img src={headshot} width='300' height='399'/>
+          <img src={headshot} width='300' height='399' class="img-fluid"/>
         </div>
       </div>
         

@@ -9,7 +9,7 @@ const makePink = {
 
 function Navigation() {
   return (
-    <Navbar expand="lg" className="bs-pink" style={makePink}>
+    <Navbar expand="lg" style={makePink}>
         
       <Container>
         <Navbar.Brand href="#home">Charli Harrold</Navbar.Brand>
