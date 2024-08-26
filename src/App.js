@@ -13,6 +13,7 @@ import About from "./components/pages/about";
 import Photos from "./components/pages/photos";
 import Projects from "./components/pages/projects";
 import Resources from "./components/pages/resources";
+import Practice from "./components/pages/practice";
 
 import Navigation from "./components/navbar";
 
@@ -27,6 +28,7 @@ function App() {
                 <Route path="/photos" element={<Photos />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/resources" element={<Resources />} />
+                <Route path="/practice" element={<Practice />} />
 
             </Routes>
         </HashRouter>
