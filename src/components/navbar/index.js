@@ -27,7 +27,6 @@ function Navigation() {
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#photos">Photos</Nav.Link>
             <Nav.Link href="#resources">Resources</Nav.Link>
-            <Nav.Link href="#practice">Practice</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
